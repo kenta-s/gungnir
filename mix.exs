@@ -9,6 +9,7 @@ defmodule Gungnir.Mixfile do
      start_permanent: Mix.env == :prod,
      description: description(),
      package: package(),
+     elixirc_paths: elixirc_paths(),
      deps: deps()]
   end
 
@@ -31,6 +32,10 @@ defmodule Gungnir.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:ex_doc, ">= 0.0.0", only: :dev}]
+  end
+
+  defp elixirc_paths do
+    ["lib"]
   end
 
   defp description do
