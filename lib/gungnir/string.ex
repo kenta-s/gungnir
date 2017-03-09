@@ -8,16 +8,16 @@ defmodule Gungnir.String do
 
   ## Examples
 
-      iex> Gungnir.String.is_blank("")
+      iex> Gungnir.String.blank?("")
       true
 
-      iex> Gungnir.String.is_blank(" \n")
+      iex> Gungnir.String.blank?(" \n")
       true
 
-      iex> Gungnir.String.is_blank("hello")
+      iex> Gungnir.String.blank?("hello")
       false
   """
-  def is_blank(string) do
+  def blank?(string) do
     String.trim(string) == ""
   end
 
@@ -26,13 +26,13 @@ defmodule Gungnir.String do
 
   ## Examples
 
-      iex> Gungnir.String.is_present("hello")
+      iex> Gungnir.String.present?("hello")
       true
 
-      iex> Gungnir.String.is_present("")
+      iex> Gungnir.String.present?("")
       false
   """
-  def is_present(string) do
+  def present?(string) do
     String.trim(string) != ""
   end
 end
