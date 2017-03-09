@@ -2,7 +2,11 @@ defmodule GungnirTest do
   use ExUnit.Case
   doctest Gungnir
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  test "is_blank" do
+    assert Gungnir.String.is_blank("")
+  end
+
+  test "is_present" do
+    assert Gungnir.String.is_present("a")
   end
 end
