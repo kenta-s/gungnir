@@ -11,7 +11,7 @@ defmodule Gungnir.String do
       iex> Gungnir.String.blank?("")
       true
 
-      iex> Gungnir.String.blank?(" \n")
+      iex> Gungnir.String.blank?(" \\n")
       true
 
       iex> Gungnir.String.blank?("hello")
