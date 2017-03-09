@@ -1,11 +1,11 @@
 # Gungnir
 
-**TODO: Add description**
+Gungnir gives you some useful functions to improve the verocity of your development.
+The main idea is based on Ruby on Rails' Active Support.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `gungnir` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `gungnir` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -13,7 +13,4 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/gungnir](https://hexdocs.pm/gungnir).
-
+The docs can be found at [https://hexdocs.pm/gungnir](https://hexdocs.pm/gungnir).
